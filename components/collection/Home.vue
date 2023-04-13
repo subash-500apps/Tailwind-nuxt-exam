@@ -231,7 +231,7 @@
                 </h1>
                 <p color="bg-" class="text-3xl font-bold mt-6 text-blue-600">
                   Join the SaaS Revolution - 50 Apps for
-                  <span class="pricing-id"> $999</span>
+                  <span class="pricing-id">₹999</span>
                 </p>
                 <div v-for="point in keypoints" :key="point.id">
                   <div class="flex mt-5">
@@ -294,6 +294,10 @@
         </div>
       </div>
     </main>
+    <li class="stick-list">
+      <div class="card-block green-bg rotate-1"><p>Text card tilt</p></div>
+
+    </li>
   </div>
 </template>
 
